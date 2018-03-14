@@ -1,7 +1,7 @@
 ---
 layout: post
 title:      "Objects are just objects"
-date:       2018-03-14 16:24:21 +0000
+date:       2018-03-14 12:24:22 -0400
 permalink:  objects_are_just_objects
 ---
 
