@@ -72,7 +72,7 @@ myOtherVar; // now I'm undefined, too!
 When we use `let` and `const` in place of `var`, both variables are only available in the scope where they're defined. 
 What differentiates `let` and `const` is the ability to reassign variables. `let` variables can be changed, `const` variables can't, therefore they're *const*ant. If a constant points to an object or array, the values contained can be changed, but not what the variable itself refers to. 
 
-### Hoisting
+## Hoisting
 Another source of confusion in Javascript-land is the term known as "hoisting". To understand this, we need to explore how Javascript runs. The Javascript engine goes through our code from top to bottom in two main phases: compilation and execution. During compilation, the engine reads through the code, and sets up all the functions and variables, but doesn't execute anything yet. Memory is set aside for all the functions and variables, and as such they are *declared*. However, the variables aren't yet *assigned* until the execution phase. 
 ```
 myFunction(); // 'my function!'
