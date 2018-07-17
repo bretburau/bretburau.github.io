@@ -1,14 +1,14 @@
 ---
 layout: post
 title:      "Javascript's Confusing Scope, Variables, and Functions"
-date:       2018-07-17 09:55:52 +0000
+date:       2018-07-17 05:55:53 -0400
 permalink:  javascripts_confusing_scope_variables_and_functions
 ---
 
 
 One of the more difficult parts of javascript is how scope works. The way variable assignments are handled can sometimes lead to some confusing behavior. Today we're going to aim to clear up some of the confusion.
 
-### What is scope
+## What is scope
 
 Scope in Javascript is essentially *where* something is available. For instance, variables are available in the scope in which they are declared.
 ```
@@ -21,7 +21,7 @@ v2 // <-- ReferenceError: v2 is not defined
 ```
 Here we declare `v1` in the global scope, which basically means it's available anywhere in our program. When we create the function `doSomething`, a scope specific to the function is also created. `v2` is defined inside the scope and is usable there. However, if we try to access it outside of the function, it's undefined.
 
-### var
+## var
 
 `var` is the original way to declare variables in javascript. The introduction of `let` and `const` in ES2015 have certainly decreased its usefulness, but it's still important to understand how it works.
 
@@ -54,7 +54,7 @@ whereIsI(); // 'inside'
 ```
 `i` is declared and assigned twice here; once in the global scope, where it's assigned 'outside', and once in the function scope, where it's assigned 'inside'. Essentially, inside the function scope, the global `i` is overwritten. When the function is called, it uses the instance from inside of its scope.
 
-### let and const
+## let and const
 As we discussed before, these two declarations were added in ES2015. They help alleviate some of the potentially strange behavior `var` can lead to. They both feature *function* scoping, just like `var`. Unlike `var`, they're both also *block-scoped*. This make variables act a little more consistently. Lets revisit the example above.
 ```
 function hey() { 
@@ -102,7 +102,7 @@ x; // now throws a Reference Error
 const x = "variable"
 ```
 
-### Functions in Javascript
+## Functions in Javascript
 
 Javascript functions are known as *first-class citizens* in the programming world. As such, there are many different ways to handle them. They can be passed around to other functions as arguments, be placed inside other objects (methods), and assigned to variables, among other things. 
 We can have *function declarations*, where we assign the function a name and add code in the block:
