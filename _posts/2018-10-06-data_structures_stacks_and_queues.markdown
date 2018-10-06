@@ -1,7 +1,7 @@
 ---
 layout: post
 title:      "Data Structures: Stacks and Queues"
-date:       2018-10-06 11:27:35 +0000
+date:       2018-10-06 07:27:36 -0400
 permalink:  data_structures_stacks_and_queues
 ---
 
