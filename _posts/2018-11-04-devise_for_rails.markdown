@@ -1,7 +1,7 @@
 ---
 layout: post
 title:      "Devise for Rails"
-date:       2018-11-04 21:03:49 +0000
+date:       2018-11-04 16:03:50 -0500
 permalink:  devise_for_rails
 ---
 
