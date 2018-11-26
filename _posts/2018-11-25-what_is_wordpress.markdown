@@ -1,0 +1,25 @@
+---
+layout: post
+title:      "What is WordPress?"
+date:       2018-11-26 03:16:57 +0000
+permalink:  what_is_wordpress
+---
+
+
+Pretty much any time I see anything about WordPress, it’s inevitable that there’s a quote about how much of the web is “powered by WordPress.” I feel like every stat I see fluctuates between 18%-28%, and I think 33% is the highest I’ve seen. I have no idea what percentage it actually is right now, but the fact that at least one out of four websites run the software is impressive. In a world that’s constantly changing and evolving and inventing a new framework, a sixteen-ish year old technology is still thriving, and that probably deserves at least some attention.
+
+###How’d it come about
+
+In the early 2000’s the internet was still pretty much in its infancy. Blogging was slowly becoming a thing, but one of the more popular platforms, called b2 hadn’t been maintained in a while. After some consideration, and to pick up where that gap was left, Matt Mullenweg decided to start a fork of b2 in 2003, and the initial WordPress was born. Since then WordPress has grown and evolved massively.
+
+One of the appeals of the original b2 platform was its hackability. WordPress continued with the idea of being simple, but highly customizable. As things evolved over the years and popularity grew, this core was maintained. It still exists like that to this day. One of the reasons it’s so popular is how easy it is to set up, and how much power there is when you open the hood. 
+
+WordPress is very simple to get up and running. If you want, you can find some hosting, buy a domain name, and have a site up and running live in a few minutes.
+
+###Far more than just a blog
+
+Although WordPress’s roots obviously came from blogging, it’s grown magnitudes since then. Part of the appeal as I mentioned above is how much you can tinker with WordPress. Over the years the evolution has been driven in several ways. Thousands of plugins are available, adding tons of different functionality right out of the box. As long as your content is all set, you can switch between many themes to change the look of the site completely. There are several default themes, tons of free ones, and thousands of paid themes. 
+
+If you’re just trying to make your blog look nice, themes are a great place to start, but if you really want to dig in, or know some things about PHP, you can customize things even further. Custom WordPress theming is a whole job descrition when it comes to web development. 
+
+Between different plugins, different custom themes, addons for ecommerce and every other thing under  the sun, the WordPress community has invented it. Large companies use it for their customer facing websites, a photographer can make a simple portfolio, and a local mechanic can have a scheduling app for oil changes. Something that began as just a guy wanting to improve his blogging platform has grown into the software that powers at least a fifth of the internet, and that’s nothing to laugh about!
