@@ -1,0 +1,13 @@
+---
+layout: post
+title:      "php Initial thoughts"
+date:       2018-12-10 02:47:01 +0000
+permalink:  php_initial_thoughts
+---
+
+
+So I decided to learn a little about php. It seems like it gets a bad rap sometimes, but no matter what, it powers WordPress, and I don’t think that’s going away any time soon. It’s also plenty popular aside from WordPress, so it’s definitely learning.
+My first reaction is that it’s not totally unlike JavaScript. I realize most languages all probably share certain similarities at this point, but the syntax isn’t terribly different. The one big thing that will take some getting used to for me is actually having required semicolons after each line. I’m sure there’s some plugin or VS Code add-on to take care of that for me, but it’s probably still a good habit to get into in general. Starting each variable with a dollar sign I could see being an annoyance if I’m not writing a lot of php, but neither of these is a deal breaker.
+The language in general feels to me like somewhere between JavaScript and Ruby. Like I said above the syntax really reminds me a lot of JavaScript, other than a few things here and there. The object-ness (objectivity?) of php is very similar to Ruby, though. I haven’t even dove that far in to how classes and objects work in php, but I can see a pretty similar paradigm. I don’t know what shortcuts exist for setters/getters and how much power a constructor has, but the general though process all feels a lot like Ruby. It just looks a lot like JavaScript, instead.
+There’s a couple little things I’d like to point out, though. The ‘continue’ keyword inside of a loop is a new concept for me. It may be in other languages I’ve worked in but I hadn’t come across it before. You can essentially test something inside a loop, and if it evaluates to truthy, you can skip the rest of that iteration of the loop, from inside. Pretty cool.
+There is also the colon syntax for loops and conditional. It make work for other types of blocks, but it reminds me of Ruby’s def/end syntax. In the case for loops (for, foreach, while, etc) and conditional (if, and others?) you can replace the curly brackets for the included code. In its place, you can put a colon for the opening bracket and a keyword for a closing bracket. These keywords are descriptive, like ‘endif’, ‘endfor’, etc. While clearly defining the end of a code block as what type of block you’re closing is nice, it feels weird to me. Maybe with usage that’d go away, since it does make sense, but with modern text editors able to highlight matching pairs of brackets and tags, I just don’t feel like It’s caused me problems very often.
