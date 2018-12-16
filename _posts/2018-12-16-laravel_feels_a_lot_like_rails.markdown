@@ -1,7 +1,7 @@
 ---
 layout: post
 title:      "Laravel feels a lot like Rails"
-date:       2018-12-16 13:01:02 +0000
+date:       2018-12-16 08:01:03 -0500
 permalink:  laravel_feels_a_lot_like_rails
 ---
 
