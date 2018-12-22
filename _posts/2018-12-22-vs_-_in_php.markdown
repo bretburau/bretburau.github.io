@@ -1,0 +1,12 @@
+---
+layout: post
+title:      "=> vs -> in PHP"
+date:       2018-12-22 12:49:34 +0000
+permalink:  vs_-_in_php
+---
+
+
+I've been learning PHP and the MVC framework Laravel. As I previously posted, Laravel clearly has some roots in Ruby on Rails. I'm sure all these types of web frameworks have a lot of similarities, but it just seems like Laravel was created by a frustrated Rails develeoper who wanted to "do it right". I really like what I've seen so far!
+There's one thing in PHP in general that I keep running into, however. PHP uses two different arrow shapes in it's syntax, and it's causing me typo after typo. PHP has a bit of a bad wrap for being ugly and spaghetti, and while I generally don't see it, these arrows make it tougher to type code. I'm sure I'll get better as with practice, but here's what's bugging me about it right now.
+So the equals arrow ```=>``` in PHP works like the colon in a JSON object...it assigns a value to a key. If I remember correctly Ruby works the same way, though they've added a syntax similar to how JavaScript works. The single arrow ```->``` is more like the dot notation for calling methods and properties in JS. Running ```$user->add('name');``` in PHP is roughly the same as ```user.add('name)``` in JavaScript.
+I understand the syntax, as its not really that complicated, but for me at the moment its annoying to type it all out. I'm sure its always like that when switching/learning a new language but at the time I wish there was an easier way. I should probably look into VS Code plugins. I find that the extra keystrokes involved, especially the ones reqire a 'shift' can slow me down signifigantly. 
