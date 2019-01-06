@@ -1,7 +1,7 @@
 ---
 layout: post
 title:      "First Impressions - Vue.js"
-date:       2019-01-06 19:22:12 +0000
+date:       2019-01-06 14:22:13 -0500
 permalink:  first_impressions_-_vue_js
 ---
 
