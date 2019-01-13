@@ -1,7 +1,7 @@
 ---
 layout: post
 title:      "Build pipelines can be silly"
-date:       2019-01-13 19:00:36 +0000
+date:       2019-01-13 14:00:37 -0500
 permalink:  build_pipelines_can_be_silly
 ---
 
